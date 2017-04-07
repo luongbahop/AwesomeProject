@@ -1,14 +1,14 @@
-import React ,{Component} from 'react';
-import {AppRegistry, View, Text} from  'react-native';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
 
- export default class myapp extends Component{
-   render(){
-      return(
-        <View>
-            <Text>Hello</Text>
-        </View>
-      );
-   }
- }
+import React from 'react';
+import {
+  AppRegistry,
+} from 'react-native';
 
- AppRegistry.registerComponent('myapp', () => myapp);
+import AwesomeProject from './wrapper'
+
+AppRegistry.registerComponent('redux4ways', () => AwesomeProject);
